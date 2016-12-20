@@ -1,0 +1,33 @@
+{
+  "name": "angular-typescript-systemjs-seed",
+  "version": "1.0.0",
+  "description": "ElasticSearch components to be used with taskcat",
+  "main": "app.ts",
+  "scripts": {
+    "postinstall": "typings install",
+    "start": "concurrently --kill-others \"npm run tsc:w\" \"npm run lite\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "taskcat"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^3.1.0",
+    "lite-server": "^2.2.2",
+    "systemjs-builder": "^0.15.34",
+    "typescript": "^2.1.4",
+    "typings": "^2.1.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.0",
+    "bootstrap": "^3.3.7",
+    "systemjs": "^0.19.41"
+  }
+}
