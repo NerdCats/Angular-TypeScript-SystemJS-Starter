@@ -29,12 +29,6 @@ To run the application web server enter the following:
 
     npm start
 
-Navigate to [http://localhost:8182/](http://localhost:8182/) to see it.    
-
-> Below steps describe in details how to configure the development environment, then how to create the project
-> files from scratch. Please read it, even if you used the above quick installation, as you will learn the 
-> structure of the project and the purpose of each file in it.
-
 ##Prerequisites
 The components listed below are required before we start coding. Good news is that you only
 need to set up these once (well, do update them once in a while :-)  
@@ -50,6 +44,11 @@ Verify installation by running the following commands:
 
     node --version
     npm --version
+
+### Concurrently 
+You'd need to install concurrently to start browsersync and typescript compiler in watch mode together.
+
+    npm install concurrently -g
 
 ###TypeScript compiler
 Until browsers support ES6 (and ES7) natively, TypeScript compiler available at 
