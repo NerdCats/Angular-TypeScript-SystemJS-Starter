@@ -21,7 +21,7 @@ Install as described below and you're ready to go.
 ###Quick Installation 
 Follow these steps:
 
-git clone https://bitbucket.org/agilisconsultinglimited/angular-ts-starter-kit.git
+git clone https://github.com/NerdCats/Angular-TypeScript-SystemJS-Starter.git
 cd angular-ts-starter-kit
 npm install
 
