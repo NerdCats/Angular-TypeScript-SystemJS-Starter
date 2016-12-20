@@ -38,3 +38,6 @@ jspm_packages
 
 # Typings directory
 typings
+
+# Any JS file under src
+src/**/*.js
