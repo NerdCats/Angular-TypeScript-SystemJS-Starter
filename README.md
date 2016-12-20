@@ -136,9 +136,6 @@ Now add a few more folders and files that will make the actual application:
 Now go to project main folder and run Visual Studio Code:
 
     code .
-  
-
-Open the files in Visual Studio Code and add the following:      
 
 ##Tips and improvements
 ###Ignore generated files and other cruft
